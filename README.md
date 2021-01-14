@@ -2,6 +2,8 @@
 
 This is a simple example of how you can upload, download, and delete images from a GCP bucket. It's still in progress. Make sure to look at the comments labeled TODO, NOTE, and WARNING to see some hints and requirements and dangers. This project is built off of the web.lab Skeleton code so it should look very familiar :)
 
+Too see this code in action, click [here](https://gcp-example.herokuapp.com/)
+
 ## Setup
 These steps approximately follow those given [here](https://www.npmjs.com/package/@google-cloud/storage); however, we diverge torwards the later steps as they don't give good examples (in my opinion). The steps in this readme should hopefully be sufficient
 ### Step 1: Set up a GCP Account
