@@ -1,2 +1,4 @@
 client/dist/bundle.js
 node_modules/
+.env
+gcp-credentials.json
