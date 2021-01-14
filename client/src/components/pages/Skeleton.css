@@ -1,1 +1,8 @@
-/* Fill me in :) */
+.Skeleton-controls > * {
+    margin: 5px;
+}
+
+img {
+    max-height: 30vh;
+    display: block;
+}
