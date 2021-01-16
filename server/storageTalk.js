@@ -72,7 +72,7 @@ const uploadImagePromise = (image) => {
                 // if we succeed, the promise should produce the filename
                 resolve(name);
             })
-            .end(Buffer.from(image, 'base64'));
+            .end(Buffer.from(image));
     });
 }
 
