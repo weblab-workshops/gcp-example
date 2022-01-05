@@ -50,7 +50,9 @@ mongoose.set('useFindAndModify', false);
 const app = express();
 app.use(validator.checkRoutes);
 
-// allow us to process POST requests
+// allow us to process POST requests.
+// We need to specify a size limit on requests or the default limit will be
+// too small for images.
 app.use(express.json({
   limit: '50mb'
 }));
