@@ -51,7 +51,9 @@ const app = express();
 app.use(validator.checkRoutes);
 
 // allow us to process POST requests
-app.use(express.json());
+app.use(express.json({
+  limit: '50mb'
+}));
 
 // set up a session, which will persist login data across requests
 app.use(

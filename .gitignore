@@ -1,4 +1,5 @@
 client/dist/bundle.js
 node_modules/
-.env
 gcp-credentials.json
+.DS_Store
+.env
