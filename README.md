@@ -113,6 +113,10 @@ downloadImagePromise(name) takes in the file name you got from uploadImagePromis
 
 deleteImagePromise(name) takes in the file name from before and deletes the file. It returns a promise that resolves to true if the image was deleted or false if it failed. This func should never error.
 
+
+#### Advanced Topic: Caching
+
+For the sake of minimizing the amount of money you spend on GCP, I've added a cache (NodeCache) to the storageTalk.js file. This keeps a map from file name to image data string in memory so that we can sometimes skip downloading from GCP. Depending on how you use this code, you might not want this cache, but most people will want it.
 ### Remembering image names
 
 The storageTalk file is useful because it allows you to save images to your GCP storage. This means that instead of having to remember the full image, now you just have to remember the randomly generated filename (which is a lot smaller than the full image).
