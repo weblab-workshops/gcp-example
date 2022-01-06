@@ -96,4 +96,6 @@ const Skeleton = (props) => {
   );
 }
 
+Skeleton.displayName = "Skeleton"
+
 export default Skeleton;
