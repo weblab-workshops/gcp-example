@@ -5,7 +5,7 @@ This is a simple example of how you can upload, download, and delete images from
 To see this code in action, click [here](https://gcp-example.herokuapp.com/)
 
 ## Setup
-These steps approximately follow those given [here](https://www.npmjs.com/package/@google-cloud/storage); however, we diverge torwards the later steps as they don't give good examples (in my opinion). The steps in this readme should hopefully be sufficient
+These steps approximately follow those given [here](https://www.npmjs.com/package/@google-cloud/storage); however, we diverge torwards the later steps as they don't give good examples (in my opinion). The steps in this readme should hopefully be sufficient, though this Setup section was last updated around January 2021 so sorry if there are slight differences
 ### Step 1: Set up a GCP Account
 
 Google Cloud Platform accounts are simply linked to your gmail so they're easy to set up, but you should make sure to get the 1-year free $300 of credits they offer to new users. Most likely your app will cost you <$1 per week, so the $300 should easily cover you for a year. To get started, simply sign up [here](https://cloud.google.com/free). You may actually have made this account already for the Auth lecture.
